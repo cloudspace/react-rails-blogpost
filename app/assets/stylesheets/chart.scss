@@ -1,0 +1,17 @@
+$black: #111111;
+$blue: #2677c9;
+
+.bar-chart {
+  display: inline-block;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: $black;
+
+  rect {
+    fill: $blue;
+  }
+
+  text {
+    fill: $black;
+  }
+}
